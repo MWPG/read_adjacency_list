@@ -1,0 +1,45 @@
+0  :  # this is comment. ref nx.read_adjlist('a.adjl')
+--- 	 ((this is a comment ( not processed
+
+1  :  = this is reserved for global settings: if wighted, nodes number, if symmetry, ...
+--- 	 ((this is reserved for global settings ( not processed
+
+2  :  
+--- 	 ((this is empty line ( not processed
+
+3  :  # 1:5, 2:5, 3:5
+--- 	 ((this is a comment ( not processed
+
+4  :  1 ~ 3 : 5
+--- 	 1:5	2:5	3:5	
+
+5  :  
+--- 	 ((this is empty line ( not processed
+
+6  :  # 4:6,4:7,5:6,5:7
+--- 	 ((this is a comment ( not processed
+
+7  :  4~5:6~7
+--- 	 4:6	4:7	5:6	5:7	
+
+8  :  
+--- 	 ((this is empty line ( not processed
+
+9  :  # 7:9, 8:9
+--- 	 ((this is a comment ( not processed
+
+10  :  7~8 : 9
+--- 	 7:9	8:9	
+
+11  :  
+--- 	 ((this is empty line ( not processed
+
+12  :  # 6:6
+--- 	 ((this is a comment ( not processed
+
+13  :  6 : 6
+--- 	 6:6	
+
+14  :  
+--- 	 ((this is empty line ( not processed
+
